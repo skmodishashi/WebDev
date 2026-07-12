@@ -19,3 +19,16 @@ let y = null;
 
 console.log(c , d, z, x, w, y);
 console.log(typeof c,typeof d,typeof z,typeof x,typeof w,typeof y);
+
+
+let o = {    //object
+    "Name" : "Sk",
+    "Job Code" : 7600
+}
+
+console.log(o);
+o.salary = "10crores"
+console.log(o);
+o.salary = "500crores"
+console.log(o);
+
