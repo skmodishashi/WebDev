@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .card {
+            background-color: black;
+            display: flex;
+            margin: 5px;
+            border: 2px solid black;
+            width: 900px;
+            justify-content: center;
+            align-items: center;
+            padding: 12px;
+        }
+
+        .image img {
+            width: 200px;
+            border-radius: 5px;
+        }
+
+        .text h1 {
+            color: white;
+            padding: 2px 5px;
+        }
+
+        .text p {
+            color: rgb(147, 137, 137);
+            padding: 2px 5px;
+        }
+
+        .image {
+            position: relative;
+
+        }
+
+        .image .capsule {
+            position: absolute;
+            bottom: 7px;
+            z-index: 10;
+            right: 3px;
+            background: #242020;
+            opacity: 0.9;
+            color: white;
+            padding: 3px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image"><img
+                    src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
+                    alt="" srcset="">
+                <div class="capsule">21:30</div>
+            </div>
+            <div class="text">
+                <h1>Introduction to Backend | Sigma Web Dev video #2</h1>
+                <p>CodeWithHarry • 700k • 2 months ago</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
